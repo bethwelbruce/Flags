@@ -1,8 +1,6 @@
-# Flags
 A non-empty array A consisting of N integers is given.
 A peak is an array element which is larger than its neighbours. More precisely, it is an index P such that 0 < P < N − 1 and A[P − 1] < A[P] > A[P + 1].
 For example, the following array A:
-
     A[0] = 1
     A[1] = 5
     A[2] = 3
@@ -24,7 +22,7 @@ three flags, you can set them on peaks 1, 5 and 10;
 four flags, you can set only three flags, on peaks 1, 5 and 10.
 You can therefore set a maximum of three flags in this case.
 Write a function:
-def solution(A)
+class Solution { public int solution(int[] A); }
 that, given a non-empty array A of N integers, returns the maximum number of flags that can be set on the peaks of the array.
 For example, the following array A:
     A[0] = 1
